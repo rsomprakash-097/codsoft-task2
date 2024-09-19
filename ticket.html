@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <ul class="nav__links">
+              <li class="link"><a href="landingpage.html">HOME</a></li>
+              <li class="link"><a href="about.html">ABOUT US</a></li>
+              <li class="link"><a href="ticket.html">E-TICKET</a></li>
+              <li class="link"><a href="journey.html">JOURNEY</a></li>
+              <li class="link"><a href="contact1.html">CONTACT</a></li>
+            </ul>
+          </nav>
+       </div>
+    <main>
+        <section class="booking-form">
+            <h2>Book Your Ticket</h2>
+            <form>
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination" required>
+
+                <label for="date">Travel Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="passengers">Number of Passengers:</label>
+                <input type="number" id="passengers" name="passengers" min="1" max="10" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
